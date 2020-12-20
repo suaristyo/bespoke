@@ -30,5 +30,11 @@
   },
   "engines": {
     "node": ">=4.2.0"
+  },
+  "dependencies": {
+    "bespoke-backdrop": "^1.0.0",
+    "bespoke-progress": "^1.0.0",
+    "bespoke-theme-nebula": "^1.0.1",
+    "normalize.css": "^8.0.1"
   }
 }
