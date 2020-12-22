@@ -1,9 +1,0 @@
-If Error = primodials , delete all thing in npm-shrinkwrap.json , then paste this :
-{
-  "dependencies": {
-    "graceful-fs": {
-        "version": "4.2.2"
-     }
-  }
-}
-then run npm install . If the error insist , search google thx.
