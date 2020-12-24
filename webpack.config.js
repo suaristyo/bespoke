@@ -8,6 +8,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js'
   },
+  resolve: {extensions: ['.js', '.jsx', '.less']},
   module: {
     rules: [
       {
@@ -18,6 +19,10 @@ module.exports = {
       {
         test: /\.(png|jpeg)$/,
         loader: 'file-loader'
+      },
+      {
+        use: ['style-loader', 'css-loader'],
+        test: /\.css$/
       }
     ]
   },
