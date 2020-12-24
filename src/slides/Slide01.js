@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Button , DatePicker} from 'antd';
 import 'antd/dist/antd.css';
 
-const Slide01 = () => (
-  <section>
+
+const Slide01 = () => {
+  const [startDate ,setStartDate] = useState(new Date());
+  console.log(startDate)
+  return (
+    <section>
     <h1>bespoke-react</h1>
     <h3>Bespoke + React made easy</h3>
     <iframe
@@ -15,9 +19,10 @@ const Slide01 = () => (
     <Button type="primary">Primary Button</Button>
     <Button>Default Button</Button>
     <Button type="dashed">Dashed Button</Button>
-    <DatePicker/>
+    <DatePicker selected={startDate} onChange={date => setStartDate(date)}/>
     <br />
   </section>
-);
+  );
+}
 
 export default Slide01;
