@@ -14,7 +14,7 @@ import nebula from 'bespoke-theme-nebula';
 const MOUNT_ELEMENT = document.getElementById('root');
 
 const plugins = [
-  // cube(),
+  //cube(),
   nebula(),
   classes(),
   keys(),

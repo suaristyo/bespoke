@@ -1,20 +1,13 @@
 import React from 'react';
-import Code from '../components/Code';
 
-const Slide05 = () => (
-  <section>
-    <h2>And code!</h2>
-    <br />
-    <Code language="javascript">{`
-      function fibonacci(num) {
-        if (num <= 1) return 1;
-
-        return fibonacci(num - 1) + fibonacci(num - 2);
-      }
-
-      fibonacci(10);
-    `}</Code>
+function Slide05({deck}){
+  
+ return(
+<section>
+    <h1 style={{color:'white'}}>Pertanyaan Interview yang sering dan menjebak</h1>
+    <p>Grogi menghadapi wawancara kerja beberapa hari lagi? Itu adalah hal yang wajar. Namun tak perlu khawatir berlebihan. Persiapan yang matang akan membuat Anda lebih siap menghadapi segala kemungkinan.</p>
   </section>
-);
+ )
+};
 
 export default Slide05;
