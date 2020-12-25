@@ -8,16 +8,18 @@ import progress from 'bespoke-progress';
 import bullets from 'bespoke-bullets';
 import prism from 'bespoke-prism';
 import App from './components/App';
+import nebula from 'bespoke-theme-nebula';
 
 const MOUNT_ELEMENT = document.getElementById('root');
 
 const plugins = [
-  cube(),
+  // cube(),
+  nebula(),
   classes(),
   keys(),
   touch(),
   progress(),
-  bullets('li'),
+  bullets('li, .bullets'),
   prism(),
 ];
 
