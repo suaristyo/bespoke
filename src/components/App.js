@@ -5,6 +5,7 @@
 import React from 'react';
 import bespoke from 'bespoke';
 
+
 const req = require.context("../slides", true, /\.js$/);
 const slides = req.keys().map(key => req(key));
 

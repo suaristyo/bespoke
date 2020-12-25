@@ -10,6 +10,7 @@ import prism from 'bespoke-prism';
 import App from './components/App';
 import nebula from 'bespoke-theme-nebula';
 
+
 const MOUNT_ELEMENT = document.getElementById('root');
 
 const plugins = [

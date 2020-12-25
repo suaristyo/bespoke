@@ -15,7 +15,7 @@ const Slide01 = () => {
     <p>Suaristyo (171111296)</p>
     <p>William Handono (171110258)</p>
 
-    <DatePicker selected={startDate} onChange={date => setStartDate(date)}/>
+    <DatePicker  id = "dt" selected={startDate} onChange={date => setStartDate(date)}/>
     <br />
   </section>
   );
