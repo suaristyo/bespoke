@@ -1,28 +1,15 @@
 import React from 'react';
 
-class Slide07 extends React.Component {
-  constructor(props) {
-    super(props);
-
-    this.state = { count: 1 };
-  }
-
-  onIncrementClicked = () => {
-    this.setState(state => ({
-      count: state.count + 1
-    }));
-  }
-
-  render () {
-    return (
-      <section>
-        <h2>And even creating stateful components within your slides!</h2>
-        <br />
-        {this.state.count}
-        <button onClick={this.onIncrementClicked}>Increment</button>
-      </section>
-    );
-  }
-};
+const Slide07 = () => (
+  <section>
+    <h2 style={{color : "white" ,fontSize : "52px"}}>Jika kita ditanya demikian,</h2>
+    <p> Maka teruslah menawari gaji yang sesuai untuk diri sendiri !
+    </p>
+    <br/>
+    <p>Berikan jawaban bahwa gaji yang kamu terima disesuaikan dengan kisaran standar perusahaan dan pengalaman. Ungkapkan kamu terbuka untuk berdiskusi dengan memberi masukan nominal yang diharapkan. Sebelumnya, lakukan riset untuk memastikan penawaran terendahmu adalah penawaran tertinggi perusahaan.</p>
+    <br />
+    
+  </section>
+);
 
 export default Slide07;
