@@ -4,11 +4,10 @@ function Slide08({deck}){
   
  return(
 <section>
-    <h2>
-      <a href="https://github.com/diegomura/bespoke-react">
-        Check out the project!
-      </a>
-    </h2>
+    <h1 style={{color : "white" ,fontSize : "52px"}}>Kenapa Kami sebaiknya Merekrut Anda?</h1>
+    <br/>
+    <p>Berikan jawaban dimana anda diri sendiri adalah sosok yang tepat untuk posisi tersebut dengan menunjukkan prestasi yang telah anda capai dipekerjaan sebelum atau sebagai freelance .</p>
+    <br />
   </section>
  )
 };

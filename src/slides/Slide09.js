@@ -1,21 +1,16 @@
 import React from 'react';
 
-const Slide09 = () => (
-  <section>
-    <h2 style={{color : "white"}}>Kesalahan Umum yang dilakukan saat Interview</h2>
+function Slide09({deck}){
+  
+ return(
+<section>
+    <h1 style={{color : "white" ,fontSize : "52px"}}>Apa yang menjadi kekurangan utama anda?</h1>
     <br/>
-    <ol>
-        <li>Menjelekkan kantor sebelumnya</li>
-        <li>Tidak mempersiapkan diri sebelumnya</li>
-        <li>Tidak tepat waktu atau terlambat</li>
-        <li>Tidak memperlihatkan ketertarikan</li>
-        <li>Terlalu keras mengeluarkan suara</li>
-        <li>Bersikap cuek pada saat melakukan wawancara</li>
-    </ol>
-
+    <p>Berikan jawaban dimana Anda cukup mendeskripsikan kekurangan yang berpengaruh terhadap diri Anda. Lalu ceritakan bagaimana Anda menemukan kelemahan tersebut dan bisa mengatasinya dengan baik.</p>
     <br />
-    
+    <p>Masih banyak pertanyaan yang sangat menjebak, yang ada butuhkan adalah percaya diri dan berkeinginan mendapatkan pekerjaan tersebut !!</p>
   </section>
-);
+ )
+};
 
 export default Slide09;
