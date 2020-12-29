@@ -1,23 +1,20 @@
 import React from 'react';
 
-
-const Slide12 = () => {
-  
-  return (
-    <section>
-    <h2 style={{color : "white"}}>Biasakan untuk melakukan :</h2>
+const Slide12 = () => (
+  <section>
+    <h2 style={{color : "white"}}>Solusi yang dapat dilakukan</h2>
     <br/>
     <ol>
-        <li>Research the Company Before the Interview</li>
-        <li>Plan What You’re Going to Wear</li>
-        <li>Practice Interview Techniques and Responses</li>
-        <li>Prepare for Behavioral Interview Questions</li>
-        <li>Make a Pit Stop</li>
-        <li>Arrive Early, But Not Too Early</li>
+        <li>Siapkan semua keperluan seperti mengenakan pakaian yang rapi dan sopan</li>
+        <li>Datang seawal mungkin, jangan terlambat</li>
+        <li>Percaya Diri</li>
+        <li>Bersikap Sopan</li>
+        <li>Mencari berbagai macam informasi seperti informasi perusahaan</li>
     </ol>
+
     <br />
+    
   </section>
-  );
-}
+);
 
 export default Slide12;

@@ -1,15 +1,21 @@
-import React, {useState} from 'react';
-import ReactImg from '../static/tips_trick_int.jpg';
+import React from 'react';
 
+const Slide11 = () => (
+  <section>
+    <h2 style={{color : "white"}}>Kesalahan umum yang sering dilakukan</h2>
+    <br/>
+    <ol>
+        <li>Menjelekkan kantor sebelumnya</li>
+        <li>Tidak mempersiapkan diri sebelumnya</li>
+        <li>Tidak tepat waktu atau terlambat</li>
+        <li>Tidak memperlihatkan ketertarikan</li>
+        <li>Terlalu keras mengeluarkan suara</li>
+        <li>Bersikap cuek pada saat melakukan wawancara</li>
+    </ol>
 
-const Slide11 = () => {
-  return (
-    <section>
-      <img src={ReactImg} style={{ height: 300 }}></img>
-      <br/>
-      <h1 style={{color : "white"}}>Tips and Trick Interview !!</h1>
+    <br />
+    
   </section>
-  );
-}
+);
 
 export default Slide11;
