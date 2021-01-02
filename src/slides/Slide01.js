@@ -91,7 +91,7 @@ const Slide01 = () => {
     <H3>Anggota</H3>
     <PA><P1>Stephen (171112640)</P1></PA>
     <PA><P2>Suaristyo (171111296)</P2></PA>
-    <PA><P3>William Handono (171110258</P3></PA>
+    <PA><P3>William Handono (171110258)</P3></PA>
     <br />
   </section>
   );

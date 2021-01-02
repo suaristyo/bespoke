@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import {Img_TjInt,Img_ChIc} from '../static'
 
 const H2 =styled.h2`
 color:white;
@@ -42,7 +43,6 @@ color:white;
 fontSize : 52px;
 animation-name: slideInRight;
 animation-duration: 4s;
-animation-iteration-count: infinite;
 @keyframes slideInRight {
   from {
     -webkit-transform: translate3d(100%, 0, 0);
@@ -61,7 +61,6 @@ color:white;
 fontSize : 52px;
 animation-name: slideInLeft;
 animation-duration: 4s;
-animation-iteration-count: infinite;
 @keyframes slideInLeft {
   from {
     -webkit-transform: translate3d(-100%, 0, 0);
@@ -75,18 +74,35 @@ animation-iteration-count: infinite;
   }
 }
 `;
+const Img1 =styled.img`
+animation-name: backInDown;
+animation-duration: 4s;
+@keyframes backInDown {
+  0% {
+    -webkit-transform: translateY(-1200px) scale(0.7);
+    transform: translateY(-1200px) scale(0.7);
+    opacity: 0.7;
+  }
 
+  80% {
+    -webkit-transform: translateY(0px) scale(0.7);
+    transform: translateY(0px) scale(0.7);
+    opacity: 0.7;
+  }
 
-const Slide02 = () => (
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+`;
+
+const Slide02 = (currentSlide) => (
   <section>
-    <H2>Apa tujuan dari sebuah Interview ?</H2>
-    <P2> Tujuan dari interview ,dari perspektif pewawancara ialah untuk menyaring keluar semua kandidat yang mungkin paling sesuai dengan
-      pekerjaan yang ada.
-    </P2>
-    <br/>
-    <P3>Tugas anda adalah untuk menunjukkan bahwa anda cocok untuk pekerjaan dan perusahaan tersebut</P3>
-    <br />
-    
+    <Img1 in={currentSlide} src={Img_ChIc} style={{width:100}} unmountOnExit></Img1>
+    <Img1 src={Img_TjInt}></Img1>
+    <H2>Apa tujuan dari sebuah Interview ?</H2>    
   </section>
 );
 

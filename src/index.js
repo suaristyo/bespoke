@@ -11,6 +11,7 @@ import App from './components/App';
 import nebula from 'bespoke-theme-nebula';
 
 
+
 const MOUNT_ELEMENT = document.getElementById('root');
 
 const plugins = [
@@ -31,3 +32,5 @@ ReactDOM.render(
   />,
   MOUNT_ELEMENT
 );
+
+export * from './static';

@@ -17,22 +17,13 @@ module.exports = {
         exclude: /node_modules/,
       },
       {
-        test: /\.(png|jpeg)$/,
+        test: /\.(png|jpeg|jpg)$/,
         loader: 'file-loader'
       },
       {
         use: ['style-loader', 'css-loader'],
         test: /\.css$/
       },
-      {
-        test: /\.(jpg|png|svg)$/,
-        use: {
-            loader: 'url-loader',
-            options: {
-                limit: 25000
-            }
-        }
-    }
     ]
   },
   plugins: [
@@ -42,3 +33,13 @@ module.exports = {
     }),
   ]
 }
+/*
+{
+        test: /\.(jpg|png|svg)$/,
+        use: {
+            loader: 'url-loader',
+            options: {
+                limit: 25000
+            }
+        }
+*/
