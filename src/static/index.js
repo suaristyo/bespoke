@@ -3,5 +3,6 @@ import Img_ChIc from './chat_icon.png';
 import Img_Re from './react.png';
 import Img_Kesalahan from './kesalahan3.jpg'
 import Img_TT from './TT.png';
+import Img_Tq from './thankyou.jpg';
 
-export{Img_TjInt,Img_ChIc,Img_Re, Img_Kesalahan, Img_TT};
+export{Img_TjInt,Img_ChIc,Img_Re, Img_Kesalahan, Img_TT ,Img_Tq};
