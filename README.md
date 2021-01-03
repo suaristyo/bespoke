@@ -12,5 +12,10 @@ Caranya :
 ## 2.Suaristyo Salihin (171111296)
 ## 3.Stephen (171112640)
 
+## Burnt Chart ada di Link 
+```sh
+https://BurndownForTrello.com/share/ufxrvquyfs
+```
+
 # Telah disertakan Logbook didalam project ini
 # Terima Kasih !!
